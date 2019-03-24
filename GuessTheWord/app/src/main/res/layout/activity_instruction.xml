@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    tools:context=".InstructionActivity">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/guesstheword" />
+    <ScrollView
+        android:id="@+id/scrollTEXT"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/imageView">
+
+            <TextView
+                android:id="@+id/Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:text="Rules:\n
+1. In each level you were given a jumbled word and you have to type the correct word in the given text field\n
+2. Once you enter the word, check whether the word is correct or not by using the validate button\n
+3. You can also use hint button for the hint to display on the screen which will reduce your points by 5\n
+4. At any point of time you may leave the game by clicking end game which will take you to your score card
+5. For example, level contains 3 letter word and level 2 contains 3 letter word.\n
+6. The score will be increaded by 100 points as you move to next level\n
+7. There are bonus points if you clear a level without hint \n
+8. You can view your score in the leader board position\n
+9. Once you clear all the 10 levels, a score card wil be displayed\n
+10.If you click on show the leader board button the leader board will be displayed on the screen" />
+    </ScrollView>
+                <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                    android:background="@drawable/buttons"
+                    android:layout_alignParentBottom="true"
+                android:text="Start Game" />
+
+
+
+</RelativeLayout>

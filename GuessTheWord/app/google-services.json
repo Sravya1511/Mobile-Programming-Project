@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "602426125857",
+    "firebase_url": "https://guesstheword-ac924.firebaseio.com",
+    "project_id": "guesstheword-ac924",
+    "storage_bucket": "guesstheword-ac924.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602426125857:android:413bcbbbfd9fb85a",
+        "android_client_info": {
+          "package_name": "com.example.guesstheword"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602426125857-vos81tli60gbutlilq3793k2o2rms5fr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.guesstheword",
+            "certificate_hash": "0cf53edb1e11b2ec7f884d62474e72dd52de6248"
+          }
+        },
+        {
+          "client_id": "602426125857-2ajn601stjm2am7tvp69ia2ch979qgdd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvedcpQVed3OE0X8F7acC5NE8nkkVuHxo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602426125857-2ajn601stjm2am7tvp69ia2ch979qgdd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
